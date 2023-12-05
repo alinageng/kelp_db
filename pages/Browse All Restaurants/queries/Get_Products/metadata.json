@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Browse All Restaurants",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -46,9 +46,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-11-29T15:52:59Z"
+    "createdAt": "2023-12-05T22:07:54Z"
   },
-  "id": "Page1_Get_Products",
+  "id": "Browse All Restaurants_Get_Products",
   "deleted": false,
   "gitSyncId": "6564c302d369555aa5a40fe5_65675e5b1d408d41955fd794"
 }
