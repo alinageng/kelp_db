@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 3270,
+          "bottomRow": 2620,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -36,16 +36,6 @@
                 "appsmith.URL.queryParams.key"
               ],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Restaurant Details_GetARestaurantsMenu",
-              "name": "GetARestaurantsMenu",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.key"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
           [
@@ -56,6 +46,19 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.URL.queryParams.key"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Restaurant Details_AddARestaurantReview",
+              "name": "AddARestaurantReview",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.key",
+                "PostReview.formData"
               ],
               "timeoutInMillisecond": 10000
             }
