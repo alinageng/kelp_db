@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 16,
     "widgetName": "more_info",
-    "onClick": "{{navigateTo('Restaurant Details', {\n  \"key\": List1.selectedItem.restaurant_id\n}, 'SAME_WINDOW').then(() => {\n  navigateTo('', {\n    \"key\": \"value\"\n  }, 'SAME_WINDOW');\n});}}",
+    "onClick": "{{navigateTo('Restaurant Details', {\n  \"key\": all_restaurants.selectedItem.restaurant_id\n}, 'SAME_WINDOW').then(() => {\n  navigateTo('', {\n    \"key\": \"value\"\n  }, 'SAME_WINDOW');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

@@ -28,7 +28,7 @@
     "leftColumn": 0,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{currentItem.hours\n}}",
+    "text": "{{currentItem.hours}}",
     "key": "enxy1lye2x",
     "isDeprecated": false,
     "rightColumn": 39,
