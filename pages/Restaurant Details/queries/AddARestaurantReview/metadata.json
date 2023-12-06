@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{PostReview.fieldState}}",
+      "body": "{{PostReview.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -43,7 +43,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
@@ -56,14 +56,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "PostReview.fieldState",
+      "PostReview.formData",
       "appsmith.URL.queryParams.key"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T03:32:51Z"
+    "createdAt": "2023-12-06T05:33:55Z"
   },
   "id": "Restaurant Details_AddARestaurantReview",
   "deleted": false,
