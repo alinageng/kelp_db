@@ -58,7 +58,7 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.URL.queryParams.key",
-                "PostReview.formData"
+                "PostReview.fieldState"
               ],
               "timeoutInMillisecond": 10000
             }
