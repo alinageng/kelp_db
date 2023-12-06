@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Browse All Restaurants",
+    "slug": "browse-all-restaurants",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1310,
+          "bottomRow": 1450,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,15 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Get_Products",
-              "name": "Get_Products",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Get_Restaurants",
+              "id": "Browse All Restaurants_Get_Restaurants",
               "name": "Get_Restaurants",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -48,14 +40,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Browse All Restaurants",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "6564c302d369555aa5a40fe5_6564c302d369555aa5a40fe7"

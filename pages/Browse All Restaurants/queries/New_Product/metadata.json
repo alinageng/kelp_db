@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Browse All Restaurants",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
     "userPermissions": [],
     "createdAt": "2023-11-29T15:54:34Z"
   },
-  "id": "Page1_New_Product",
+  "id": "Browse All Restaurants_New_Product",
   "deleted": false,
   "gitSyncId": "6564c302d369555aa5a40fe5_65675eba1d408d41955fd796"
 }

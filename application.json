@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Browse All Restaurants",
       "isDefault": true
+    },
+    {
+      "id": "Restaurant Details",
+      "isDefault": false
     }
   ],
   "viewMode": false,
