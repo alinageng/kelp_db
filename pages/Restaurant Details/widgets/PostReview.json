@@ -866,7 +866,7 @@
         {"key": "schema.__root_schema__.children.description.children.isVisible.children.isVisible.defaultValue"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 73,
+    "bottomRow": 81,
     "fieldLimitExceeded": true,
     "parentRowSpace": 10,
     "title": "Add a Review",
