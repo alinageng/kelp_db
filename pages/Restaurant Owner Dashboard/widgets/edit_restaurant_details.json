@@ -235,7 +235,7 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 7,
-                "isDisabled": false,
+                "isDisabled": true,
                 "sourceData": 0,
                 "fieldType": "Number Input"
             },

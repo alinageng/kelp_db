@@ -1,6 +1,6 @@
 {
     "mobileBottomRow": 5,
-    "widgetName": "Rating1",
+    "widgetName": "avg_rating",
     "displayName": "Rating",
     "iconSVG": "/static/media/icon.2281d0260761c25b3504117eddb50d8d.svg",
     "searchTags": [
@@ -18,7 +18,7 @@
     "isReadOnly": false,
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 44,
+    "leftColumn": 55,
     "dynamicBindingPathList": [
         {"key": "activeColor"},
         {"key": "defaultRate"}
