@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 24,
+    "topRow": 16,
     "pageSize": 6,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "i38dohz19r",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 145,
+    "originalBottomRow": 137,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -89,7 +89,7 @@
     "widgetName": "List1",
     "listData": "{{Get_Restaurants.data}}",
     "displayName": "List",
-    "bottomRow": 145,
+    "bottomRow": 137,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 23,
@@ -108,7 +108,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 23,
     "responsiveBehavior": "fill",
-    "originalTopRow": 24,
+    "originalTopRow": 16,
     "mobileLeftColumn": 0,
     "selectedItemView": "{{{}}}"
 }
