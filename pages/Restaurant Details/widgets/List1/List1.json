@@ -4,21 +4,18 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 78,
-    "pageSize": 3,
+    "topRow": 212,
+    "pageSize": 2,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
     "animateLoading": true,
     "dynamicBindingPathList": [
-        {"key": "currentItemsView"},
-        {"key": "selectedItemView"},
-        {"key": "triggeredItemView"},
+        {"key": "listData"},
         {"key": "primaryKeys"},
-        {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-    "leftColumn": 5,
+    "leftColumn": 2,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -26,7 +23,7 @@
         "widgetName": "Canvas2",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 400,
+        "bottomRow": 1150,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
@@ -75,7 +72,7 @@
     "isLoading": false,
     "mainCanvasId": "gfyiwt3rpe",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 119,
+    "originalBottomRow": 309,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -86,43 +83,28 @@
     "currentItemsView": "{{[]}}",
     "triggeredItemView": "{{{}}}",
     "widgetName": "List1",
-    "listData": [
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Blue",
-            "id": "001"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Green",
-            "id": "002"
-        },
-        {
-            "img": "https://assets.appsmith.com/widgets/default.png",
-            "name": "Red",
-            "id": "003"
-        }
-    ],
+    "listData": "{{GetARestaurantReviews.data}}",
     "displayName": "List",
-    "bottomRow": 118,
+    "bottomRow": 327,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 29,
     "mainContainerId": "myog6na1ck",
-    "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"id\"] )}}",
+    "primaryKeys": "{{List1.listData.map((currentItem, currentIndex) => currentItem[\"restaurant_review_id\"] )}}",
     "parentColumnSpace": 19.296875,
+    "dynamicTriggerPathList": [],
     "gridType": "vertical",
     "key": "zkbw7ztbqz",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 55,
     "widgetId": "6ag4ls5kgn",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
     "mobileTopRow": 22,
     "responsiveBehavior": "fill",
-    "originalTopRow": 79,
+    "originalTopRow": 194,
     "mobileLeftColumn": 5,
     "selectedItemView": "{{{}}}"
 }
