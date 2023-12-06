@@ -33,7 +33,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "edit_restaurant_details.formData.restaurant_id"
+                "appsmith.URL.queryParams.restaurant_id"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -43,7 +43,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "edit_restaurant_details.formData.restaurant_id"
+                "appsmith.URL.queryParams.restaurant_id"
               ],
               "timeoutInMillisecond": 10000
             }
