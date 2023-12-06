@@ -9,7 +9,11 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Restaurant Owner Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Chose Restaurant Owners",
       "isDefault": false
     }
   ],

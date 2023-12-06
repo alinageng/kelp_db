@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Restaurant Owner Dashboard",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,7 +48,7 @@
     "userPermissions": [],
     "createdAt": "2023-12-06T16:57:19Z"
   },
-  "id": "Page1_get_a_restaurant",
+  "id": "Restaurant Owner Dashboard_get_a_restaurant",
   "deleted": false,
   "gitSyncId": "656f9d57f05909614b0f2617_6570a7ef1972f007d01f4efa"
 }
