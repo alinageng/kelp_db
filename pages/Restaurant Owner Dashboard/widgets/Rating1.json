@@ -37,7 +37,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 1,
-    "defaultRate": "{{get_a_restaurant.data.average_rating}}",
+    "defaultRate": "{{get_restaurant_by_owner.data.average_rating}}",
     "activeColor": "{{appsmith.theme.colors.primaryColor}}",
     "size": "LARGE",
     "mobileLeftColumn": 20,
