@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 6,
-    "bottomRow": 12,
+    "bottomRow": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 25.5,
@@ -27,7 +27,7 @@
     "text": "{{GetResetaurantDetails.data.hours}}",
     "key": "enxy1lye2x",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 36,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "sgw3ge6sfp",

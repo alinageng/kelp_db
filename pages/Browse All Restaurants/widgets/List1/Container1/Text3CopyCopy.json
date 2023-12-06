@@ -31,7 +31,7 @@
     "text": "{{currentItem.city + \", \" + currentItem.state\n}}",
     "key": "enxy1lye2x",
     "isDeprecated": false,
-    "rightColumn": 9,
+    "rightColumn": 27,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "nxg6uu0qbi",

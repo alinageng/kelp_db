@@ -133,7 +133,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 119,
+    "originalBottomRow": 82,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -367,15 +367,9 @@
         "buttonColor": "#22c55e",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [
-        {"key": "schema.__root_schema__.children.description.children.isDisabled.defaultValue"},
-        {"key": "schema.__root_schema__.children.description.children.isRequired.defaultValue"},
-        {"key": "schema.__root_schema__.children.description.children.isValid.defaultValue"},
-        {"key": "schema.__root_schema__.children.description.children.isVisible.defaultValue"},
-        {"key": "sourceData"}
-    ],
+    "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 119,
+    "bottomRow": 82,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add a Review",

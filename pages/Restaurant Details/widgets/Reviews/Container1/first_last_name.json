@@ -28,7 +28,7 @@
     "text": "{{currentItem.first_name}}  {{currentItem.last_name}}",
     "key": "enxy1lye2x",
     "isDeprecated": false,
-    "rightColumn": 20,
+    "rightColumn": 24,
     "textAlign": "LEFT",
     "dynamicHeight": "FIXED",
     "widgetId": "plzbcd1k47",
