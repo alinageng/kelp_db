@@ -65,7 +65,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.restaurant_owner_id"
+                "appsmith.URL.queryParams.restaurant_id"
               ],
               "timeoutInMillisecond": 10000
             }
