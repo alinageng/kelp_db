@@ -3,7 +3,7 @@
     "borderColor": "#006d77",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{edit_restaurant.data}}",
-    "topRow": 20,
+    "topRow": 24,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
     "leftColumn": 13,
@@ -346,7 +346,7 @@
         {"key": "onSubmit"}
     ],
     "displayName": "JSON Form",
-    "bottomRow": 24,
+    "bottomRow": 106,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",

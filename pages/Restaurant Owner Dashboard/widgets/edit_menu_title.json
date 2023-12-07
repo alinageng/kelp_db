@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 60,
-    "bottomRow": 64,
+    "topRow": 143,
+    "bottomRow": 148,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
