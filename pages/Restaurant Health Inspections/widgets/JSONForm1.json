@@ -167,7 +167,7 @@
                 "boxShadow": "none",
                 "isRequired": false,
                 "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (appsmith.URL.queryParams.key))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (appsmith.URL.queryParams.restaurant_id))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "restaurant_id",
