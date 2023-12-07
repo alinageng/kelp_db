@@ -1,0 +1,72 @@
+{
+    "boxShadow": "none",
+    "iconSVG": "/static/media/icon.99c101b3b70073f9c00e9af6523f9427.svg",
+    "topRow": 33,
+    "labelWidth": 5,
+    "type": "RADIO_GROUP_WIDGET",
+    "defaultOptionValue": "",
+    "animateLoading": true,
+    "leftColumn": 2,
+    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "options": [
+        {
+            "label": "A",
+            "value": "A"
+        },
+        {
+            "label": "B",
+            "value": "B"
+        },
+        {
+            "label": "C",
+            "value": "C"
+        },
+        {
+            "label": "D",
+            "value": "D"
+        },
+        {
+            "label": "F",
+            "value": "F"
+        }
+    ],
+    "labelStyle": "",
+    "isDisabled": false,
+    "flexVerticalAlignment": "start",
+    "isRequired": false,
+    "dynamicHeight": "AUTO_HEIGHT",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "tags": ["Toggles"],
+    "isLoading": false,
+    "originalBottomRow": 52,
+    "alignment": "left",
+    "mobileBottomRow": 32,
+    "widgetName": "Choose_Grade",
+    "displayName": "Radio Group",
+    "searchTags": ["choice"],
+    "bottomRow": 52,
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 22,
+    "shouldScrollContents": true,
+    "parentColumnSpace": 15.2734375,
+    "dynamicTriggerPathList": [],
+    "labelPosition": "Top",
+    "key": "kqcq8jfume",
+    "labelTextSize": "1.875rem",
+    "isDeprecated": false,
+    "rightColumn": 61,
+    "widgetId": "u60xz9t2ao",
+    "label": "Grade",
+    "parentId": "k72wkz0zqi",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 26,
+    "originalTopRow": 33,
+    "mobileLeftColumn": 2,
+    "maxDynamicHeight": 9000,
+    "isInline": false,
+    "minDynamicHeight": 4
+}
