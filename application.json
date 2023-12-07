@@ -27,6 +27,10 @@
     {
       "id": "Restaurant Health Inspections",
       "isDefault": false
+    },
+    {
+      "id": "Edit a Review",
+      "isDefault": false
     }
   ],
   "viewMode": false,
