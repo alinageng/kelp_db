@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Browse All Restaurants",
       "isDefault": true
     },
     {
@@ -14,6 +14,22 @@
     },
     {
       "id": "Edit Review",
+      "isDefault": false
+    },
+    {
+      "id": "Restaurant Details",
+      "isDefault": false
+    },
+    {
+      "id": "Restaurant Owner Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Chose Restaurant Owners",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Menu Price",
       "isDefault": false
     }
   ],
