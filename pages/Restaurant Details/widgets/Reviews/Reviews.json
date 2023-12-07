@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 93,
+    "topRow": 97,
     "pageSize": 2,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -72,7 +72,7 @@
     "isLoading": false,
     "mainCanvasId": "gfyiwt3rpe",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 223,
+    "originalBottomRow": 228,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -85,7 +85,7 @@
     "widgetName": "Reviews",
     "listData": "{{GetARestaurantReviews.data}}",
     "displayName": "List",
-    "bottomRow": 223,
+    "bottomRow": 227,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 29,
@@ -104,7 +104,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 22,
     "responsiveBehavior": "fill",
-    "originalTopRow": 93,
+    "originalTopRow": 98,
     "mobileLeftColumn": 5,
     "selectedItemView": "{{{}}}"
 }

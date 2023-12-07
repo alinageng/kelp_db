@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1140,
+          "bottomRow": 1060,
           "containerStyle": "none",
           "snapRows": 105,
           "parentRowSpace": 1,
@@ -32,7 +32,21 @@
               "name": "Get_Customer_Reviews",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.customer_id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "User Reviews_get_customer",
+              "name": "get_customer",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.customer_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

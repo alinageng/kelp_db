@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 3090,
+          "bottomRow": 1480,
           "containerStyle": "none",
           "snapRows": 105,
           "parentRowSpace": 1,
@@ -32,7 +32,21 @@
               "name": "get_a_restaurant_review",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.restaurant_review_id"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Edit Review_get_restaurant_details",
+              "name": "get_restaurant_details",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "get_a_restaurant_review.data.restaurant_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
