@@ -23,6 +23,10 @@
     {
       "id": "Health Inspection",
       "isDefault": false
+    },
+    {
+      "id": "Restaurant Health Inspections",
+      "isDefault": false
     }
   ],
   "viewMode": false,
