@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button3",
-    "onClick": "{{delete_a_review.run().then(() => {\n  closeModal('');\n}).catch(() => {\n  Get_Customer_Reviews.run();\n});}}",
+    "onClick": "{{delete_a_review.run().then(() => {\n  closeModal('');\n  Get_Customer_Reviews.run();\n}).catch(() => {\n  showAlert('could not delete review', '');\n});}}",
     "buttonColor": "#83c5be",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",

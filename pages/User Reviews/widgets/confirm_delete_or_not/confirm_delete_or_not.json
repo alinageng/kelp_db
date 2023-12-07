@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "mobileBottomRow": 0,
-    "widgetName": "Modal1",
+    "widgetName": "confirm_delete_or_not",
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.b374721fa8e1aeab7cf326c2d865506f.svg",

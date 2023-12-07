@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Are you sure you want to delete your review for {{AllUserReviews.selectedItem.}}",
+    "text": "Are you sure you want to delete your review for {{AllUserReviews.selectedItem.restaurant_name}}?",
     "key": "ue0taj8ycf",
     "isDeprecated": false,
     "rightColumn": 41,
