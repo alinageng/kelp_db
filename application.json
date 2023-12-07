@@ -31,6 +31,18 @@
     {
       "id": "Edit a Review",
       "isDefault": false
+    },
+    {
+      "id": "All Customers Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "User Reviews",
+      "isDefault": false
+    },
+    {
+      "id": "Edit Review",
+      "isDefault": false
     }
   ],
   "viewMode": false,
