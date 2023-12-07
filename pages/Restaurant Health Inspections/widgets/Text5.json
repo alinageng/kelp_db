@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 37,
-    "bottomRow": 56,
+    "bottomRow": 50,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,10 +20,7 @@
     "parentColumnSpace": 14.3125,
     "dynamicTriggerPathList": [],
     "leftColumn": 4,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "Restaurant Health Inspection",
@@ -51,7 +48,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 7,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 56,
+    "originalBottomRow": 50,
     "fontSize": "3rem",
     "minDynamicHeight": 4
 }

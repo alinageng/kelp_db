@@ -18,12 +18,7 @@
     "overflow": "NONE",
     "dynamicTriggerPathList": [],
     "fontFamily": "Open Sans",
-    "dynamicBindingPathList": [
-        {"key": "text"},
-        {"key": "truncateButtonColor"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
+    "dynamicBindingPathList": [{"key": "text"}],
     "leftColumn": 5,
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",

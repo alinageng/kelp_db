@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 10,
-    "bottomRow": 21,
+    "topRow": 13,
+    "bottomRow": 19,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,11 +20,7 @@
     "parentColumnSpace": 19.656982421875,
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "truncateButtonColor"},
-        {"key": "borderRadius"},
-        {"key": "text"}
-    ],
+    "dynamicBindingPathList": [{"key": "text"}],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "text": "{{GET_Restaurant_By_ID.data.street}} \n{{GET_Restaurant_By_ID.data.address_line_2}} {{GET_Restaurant_By_ID.data.city}} {{GET_Restaurant_By_ID.data.state}}",
@@ -52,7 +48,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
+    "originalBottomRow": 16,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
