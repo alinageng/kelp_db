@@ -8,8 +8,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 10,
-    "bottomRow": 15,
+    "topRow": 11,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,7 +19,7 @@
     "fontFamily": "Montserrat",
     "parentColumnSpace": 19.296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 9,
+    "leftColumn": 16,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -29,7 +29,7 @@
     "text": "Customer Login",
     "key": "enxy1lye2x",
     "isDeprecated": false,
-    "rightColumn": 37,
+    "rightColumn": 44,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "hzhg2ym1w9",
@@ -47,11 +47,11 @@
     "isLoading": false,
     "mobileTopRow": 4,
     "responsiveBehavior": "fill",
-    "originalTopRow": 10,
+    "originalTopRow": 11,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 15,
+    "originalBottomRow": 16,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

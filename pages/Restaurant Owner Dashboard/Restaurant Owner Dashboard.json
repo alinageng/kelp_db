@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2010,
+          "bottomRow": 3470,
           "containerStyle": "none",
           "snapRows": 63,
           "parentRowSpace": 1,
@@ -28,6 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Restaurant Owner Dashboard_get_health_inspections",
+              "name": "get_health_inspections",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.restaurant_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Restaurant Owner Dashboard_get_menu",
               "name": "get_menu",
               "confirmBeforeExecute": false,
@@ -40,6 +50,16 @@
             {
               "id": "Restaurant Owner Dashboard_get_promotions",
               "name": "get_promotions",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.restaurant_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Restaurant Owner Dashboard_get_restaurant_reviews",
+              "name": "get_restaurant_reviews",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

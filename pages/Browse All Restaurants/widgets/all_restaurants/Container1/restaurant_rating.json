@@ -19,10 +19,7 @@
     "parentColumnSpace": 10.6220703125,
     "dynamicTriggerPathList": [],
     "leftColumn": 50,
-    "dynamicBindingPathList": [
-        {"key": "activeColor"},
-        {"key": "defaultRate"}
-    ],
+    "dynamicBindingPathList": [{"key": "defaultRate"}],
     "isDisabled": false,
     "key": "ap5vt4tx9q",
     "isRequired": false,
@@ -38,7 +35,7 @@
     "isLoading": false,
     "mobileTopRow": 9,
     "defaultRate": "{{currentItem.average_rating}}",
-    "activeColor": "{{appsmith.theme.colors.primaryColor}}",
+    "activeColor": "#fde047",
     "size": "LARGE",
     "mobileLeftColumn": 43,
     "maxDynamicHeight": 9000,

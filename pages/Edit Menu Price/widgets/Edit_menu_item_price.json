@@ -1,18 +1,16 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#006d77",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{edit_menu_price.run().then(() => {\n  showAlert('', 'success');\n});}}",
-    "topRow": 1,
+    "onSubmit": "{{edit_menu_price.run().then(() => {\n  showAlert('updated!', 'success');\n});}}",
+    "topRow": 11,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 1,
+    "leftColumn": 5,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
-        {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "sourceData"},
         {"key": "schema.__root_schema__.children.menu_id.defaultValue"},
@@ -32,8 +30,7 @@
         {"key": "schema.__root_schema__.children.price.borderRadius"},
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
-        {"key": "schema.__root_schema__.cellBorderRadius"},
-        {"key": "title"}
+        {"key": "schema.__root_schema__.cellBorderRadius"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -42,7 +39,7 @@
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#006d77",
         "buttonVariant": "SECONDARY"
     },
     "isVisible": true,
@@ -132,7 +129,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 35,
+    "originalBottomRow": 42,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -206,14 +203,15 @@
                 "isVisible": true,
                 "label": "Price",
                 "originalIdentifier": "price",
+                "decimalsInCurrency": 0,
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Edit_menu_item_price.sourceData, Edit_menu_item_price.formData, Edit_menu_item_price.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
-                "iconAlign": "left",
                 "position": 0,
+                "currencyCountryCode": "USD",
                 "isDisabled": false,
                 "sourceData": 27,
-                "fieldType": "Number Input"
+                "fieldType": "Currency Input"
             },
             "name": {
                 "labelTextSize": "0.875rem",
@@ -277,15 +275,15 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#006d77",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 35,
+    "bottomRow": 42,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Update Price of {{get_menu_item.data.name}}",
+    "title": "",
     "hideCard": false,
     "mobileRightColumn": 26,
     "parentColumnSpace": 19.296875,
@@ -294,9 +292,9 @@
     "sourceData": "{{get_menu_item.data}}",
     "resetButtonLabel": "Reset",
     "key": "urujwdrj8f",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#83c5be",
     "isDeprecated": false,
-    "rightColumn": 26,
+    "rightColumn": 30,
     "widgetId": "66pywxg210",
     "minWidth": 450,
     "parentId": "0",
@@ -305,7 +303,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 1,
+    "originalTopRow": 11,
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

@@ -49,6 +49,9 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#D6D1F2",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

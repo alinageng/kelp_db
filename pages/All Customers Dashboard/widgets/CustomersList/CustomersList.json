@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 15,
+    "topRow": 16,
     "pageSize": 8,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -19,7 +19,7 @@
         {"key": "boxShadow"},
         {"key": "listData"}
     ],
-    "leftColumn": 9,
+    "leftColumn": 16,
     "enhancements": true,
     "children": [{
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -76,7 +76,7 @@
     "isLoading": false,
     "mainCanvasId": "goj5lj145f",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 134,
+    "originalBottomRow": 135,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -89,7 +89,7 @@
     "widgetName": "CustomersList",
     "listData": "{{Get_Customers.data}}",
     "displayName": "List",
-    "bottomRow": 134,
+    "bottomRow": 135,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
@@ -101,7 +101,7 @@
     "key": "k1g61qar8p",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 53,
     "widgetId": "hbt2u99jbk",
     "minWidth": 450,
     "onItemClick": "{{navigateTo('User Reviews', {\n  \"customer_id\": CustomersList.selectedItem.customer_id\n}, 'SAME_WINDOW');}}",
@@ -109,7 +109,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 13,
     "responsiveBehavior": "fill",
-    "originalTopRow": 15,
+    "originalTopRow": 16,
     "mobileLeftColumn": 13,
     "selectedItemView": "{{{}}}"
 }
