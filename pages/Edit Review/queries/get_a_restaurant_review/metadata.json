@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Get_Customer_Reviews",
+    "name": "get_a_restaurant_review",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/r/customer/22/reviews"
+        "url": "web:4000//r/restaurants/review/7"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "User Reviews",
+    "pageId": "Edit Review",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -51,9 +51,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T18:11:17Z"
+    "createdAt": "2023-12-07T00:44:51Z"
   },
-  "id": "User Reviews_Get_Customer_Reviews",
+  "id": "Edit Review_get_a_restaurant_review",
   "deleted": false,
-  "gitSyncId": "6567d82d234d526c87f4b4fe_6570b945f70b127ad78c44c8"
+  "gitSyncId": "6567d82d234d526c87f4b4fe_65711583226f6f0735cfecf1"
 }

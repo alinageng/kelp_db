@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User Reviews",
-    "slug": "user-reviews",
+    "name": "Edit Review",
+    "slug": "edit-review",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1070,
+          "bottomRow": 3080,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "User Reviews_Get_Customer_Reviews",
-              "name": "Get_Customer_Reviews",
+              "id": "Edit Review_get_a_restaurant_review",
+              "name": "get_a_restaurant_review",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User Reviews",
+        "id": "Edit Review",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6567d82d234d526c87f4b4fe_6570b5d6f70b127ad78c44c6"
+  "gitSyncId": "6567d82d234d526c87f4b4fe_657107a8226f6f0735cfecef"
 }

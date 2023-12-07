@@ -15,6 +15,10 @@
     {
       "id": "User Reviews",
       "isDefault": false
+    },
+    {
+      "id": "Edit Review",
+      "isDefault": false
     }
   ],
   "viewMode": false,
