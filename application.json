@@ -23,10 +23,6 @@
     {
       "id": "Health Inspection",
       "isDefault": false
-    },
-    {
-      "id": "Edit A Review",
-      "isDefault": false
     }
   ],
   "viewMode": false,
