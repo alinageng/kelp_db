@@ -1,1 +1,0 @@
-{{edit_menu_items_form.selectedItem}}
