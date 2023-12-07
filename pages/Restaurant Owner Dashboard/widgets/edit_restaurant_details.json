@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#006d77",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{edit_restaurant.data}}",
+    "onSubmit": "{{edit_restaurant.run}}",
     "topRow": 24,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -10,9 +10,7 @@
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
-        {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
         {"key": "schema.__root_schema__.children.customField1.accentColor"},
         {"key": "schema.__root_schema__.children.customField1.borderRadius"},
@@ -38,7 +36,11 @@
         {"key": "schema.__root_schema__.children.customField7.defaultValue"},
         {"key": "schema.__root_schema__.children.customField8.accentColor"},
         {"key": "schema.__root_schema__.children.customField8.borderRadius"},
-        {"key": "schema.__root_schema__.children.customField8.defaultValue"}
+        {"key": "schema.__root_schema__.children.customField8.defaultValue"},
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.average_rating.defaultValue"},
+        {"key": "schema.__root_schema__.children.average_rating.borderRadius"},
+        {"key": "schema.__root_schema__.children.average_rating.accentColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -47,7 +49,7 @@
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#006d77",
         "buttonVariant": "SECONDARY"
     },
     "isVisible": true,
@@ -138,7 +140,7 @@
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 106,
-    "useSourceData": false,
+    "useSourceData": true,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
         "identifier": "__root_schema__",
@@ -326,6 +328,28 @@
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Text Input"
+            },
+            "average_rating": {
+                "labelTextSize": "0.875rem",
+                "identifier": "average_rating",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.average_rating))(edit_restaurant_details.sourceData, edit_restaurant_details.formData, edit_restaurant_details.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(edit_restaurant_details.sourceData, edit_restaurant_details.formData, edit_restaurant_details.fieldState)}}",
+                "dataType": "string",
+                "accessor": "average_rating",
+                "isVisible": false,
+                "label": "Average Rating",
+                "originalIdentifier": "average_rating",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(edit_restaurant_details.sourceData, edit_restaurant_details.formData, edit_restaurant_details.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 8,
+                "isDisabled": false,
+                "sourceData": "3.0000",
+                "fieldType": "Text Input"
             }
         },
         "position": -1,
@@ -338,7 +362,7 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+        "buttonColor": "#006d77",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [
@@ -355,7 +379,7 @@
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "",
+    "sourceData": "{{get_restaurant_by_owner.data}}",
     "resetButtonLabel": "Reset",
     "key": "e2rbim59mg",
     "backgroundColor": "#83c5be",

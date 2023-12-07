@@ -58,6 +58,16 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Restaurant Owner Dashboard_get_restaurant_by_owner",
+              "name": "get_restaurant_by_owner",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.restaurant_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Restaurant Owner Dashboard_get_restaurant_reviews",
               "name": "get_restaurant_reviews",
               "confirmBeforeExecute": false,
@@ -76,16 +86,6 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "appsmith.URL.queryParams.restaurant_owner_id"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Restaurant Owner Dashboard_get_restaurant_by_owner",
-              "name": "get_restaurant_by_owner",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.restaurant_id"
               ],
               "timeoutInMillisecond": 10000
             }
