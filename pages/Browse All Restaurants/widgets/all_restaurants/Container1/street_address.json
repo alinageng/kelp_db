@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 8,
-    "bottomRow": 12,
+    "topRow": 9,
+    "bottomRow": 13,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 24,
@@ -38,7 +38,7 @@
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#231F20",
+    "textColor": "#3f3f46",
     "version": 1,
     "parentId": "0rh4mb7e57",
     "tags": [

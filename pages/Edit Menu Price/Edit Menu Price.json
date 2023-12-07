@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Restaurant Details",
-    "slug": "restaurant-details",
+    "name": "Edit Menu Price",
+    "slug": "edit-menu-price",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2240,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -28,34 +28,12 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Restaurant Details_GetARestaurantReviews",
-              "name": "GetARestaurantReviews",
+              "id": "Edit Menu Price_get_menu_item",
+              "name": "get_menu_item",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "appsmith.URL.queryParams.restaurant_id"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Restaurant Details_GetARestaurantsMenu",
-              "name": "GetARestaurantsMenu",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.restaurant_id"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Restaurant Details_GetResetaurantDetails",
-              "name": "GetResetaurantDetails",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.URL.queryParams.restaurant_id"
+                "appsmith.URL.queryParams.menu_id"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -63,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Restaurant Details",
+        "id": "Edit Menu Price",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -74,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "656f9f3af05909614b0f261e_656fa21ef05909614b0f2625"
+  "gitSyncId": "656f9d57f05909614b0f2617_6571009e9a6aee1f8ebbcc14"
 }

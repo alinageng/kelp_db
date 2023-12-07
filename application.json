@@ -15,6 +15,10 @@
     {
       "id": "Chose Restaurant Owners",
       "isDefault": false
+    },
+    {
+      "id": "Edit Menu Price",
+      "isDefault": false
     }
   ],
   "viewMode": false,

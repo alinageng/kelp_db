@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 5,
+    "bottomRow": 6,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 25.5,
@@ -50,6 +50,6 @@
     "mobileLeftColumn": 1.5,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 5,
-    "fontSize": "1.25rem",
+    "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

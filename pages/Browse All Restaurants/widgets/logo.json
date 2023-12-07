@@ -9,7 +9,7 @@
         "label"
     ],
     "topRow": 11,
-    "bottomRow": 15,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -30,7 +30,7 @@
     "text": "Browse All Restaurants",
     "key": "enxy1lye2x",
     "isDeprecated": false,
-    "rightColumn": 18,
+    "rightColumn": 23,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "97v4b11v8p",
@@ -52,7 +52,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 2,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 15,
-    "fontSize": "1rem",
+    "originalBottomRow": 16,
+    "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

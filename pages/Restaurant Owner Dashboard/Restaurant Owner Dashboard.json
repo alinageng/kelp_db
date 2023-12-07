@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1710,
+          "bottomRow": 2010,
           "containerStyle": "none",
           "snapRows": 63,
           "parentRowSpace": 1,
@@ -49,6 +49,16 @@
             }
           ],
           [
+            {
+              "id": "Restaurant Owner Dashboard_get_resetaurant_owner",
+              "name": "get_resetaurant_owner",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.restaurant_owner_id"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Restaurant Owner Dashboard_get_restaurant_by_owner",
               "name": "get_restaurant_by_owner",
