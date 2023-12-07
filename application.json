@@ -3,6 +3,14 @@
     {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Health Inspection",
+      "isDefault": false
+    },
+    {
+      "id": "Restaurant Health Inspections",
+      "isDefault": false
     }
   ],
   "viewMode": false,

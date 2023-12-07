@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "GradeOptions",
+    "pageId": "Restaurant Health Inspections",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "optionsArray",
+        "value": "[]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Restaurant Health Inspections_GradeOptions",
+  "deleted": false,
+  "gitSyncId": "656f9ff62f81223d74abac4a_656fec212f81223d74abac81"
+}
