@@ -42,7 +42,9 @@
               "name": "get_a_restaurants_reviews",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "appsmith.URL.queryParams.restaurant_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
