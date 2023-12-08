@@ -15,7 +15,7 @@
     "hideCard": false,
     "mobileRightColumn": 40,
     "animateLoading": true,
-    "isReadOnly": false,
+    "isReadOnly": true,
     "parentColumnSpace": 11.796875,
     "dynamicTriggerPathList": [],
     "leftColumn": 22,

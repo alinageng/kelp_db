@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#006d77",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{edit_restaurant.run}}",
+    "onSubmit": "{{edit_restaurant.run().then(() => {\n  showAlert('updated restaurant details!', '');\n});}}",
     "topRow": 24,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -365,10 +365,7 @@
         "buttonColor": "#006d77",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "onSubmit"}
-    ],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
     "bottomRow": 106,
     "fieldLimitExceeded": false,
