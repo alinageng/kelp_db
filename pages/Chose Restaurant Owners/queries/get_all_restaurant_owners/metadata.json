@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -46,7 +46,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-06T17:41:11Z"
+    "createdAt": "2023-12-07T02:06:20Z"
   },
   "id": "Chose Restaurant Owners_get_all_restaurant_owners",
   "deleted": false,

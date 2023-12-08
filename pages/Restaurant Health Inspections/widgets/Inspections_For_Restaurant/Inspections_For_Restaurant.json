@@ -4,7 +4,7 @@
     "isCanvas": true,
     "templateHeight": 160,
     "iconSVG": "/static/media/icon.5c9511142b3624c7491c5442e8ccd0ef.svg",
-    "topRow": 60,
+    "topRow": 54,
     "pageSize": 4,
     "type": "LIST_WIDGET_V2",
     "itemSpacing": 8,
@@ -71,7 +71,7 @@
     "isLoading": false,
     "mainCanvasId": "zdpp0732kn",
     "borderRadius": "0.375rem",
-    "originalBottomRow": 107,
+    "originalBottomRow": 113,
     "additionalStaticProps": [
         "level",
         "levelData",
@@ -84,7 +84,7 @@
     "widgetName": "Inspections_For_Restaurant",
     "listData": "{{GET_Health_Inspect_By_Rest_ID.data}}",
     "displayName": "List",
-    "bottomRow": 113,
+    "bottomRow": 107,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 30,
@@ -103,7 +103,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 33,
     "responsiveBehavior": "fill",
-    "originalTopRow": 54,
+    "originalTopRow": 60,
     "mobileLeftColumn": 6,
     "selectedItemView": "{{{}}}"
 }
