@@ -36,7 +36,7 @@
     "mobileTopRow": 6,
     "defaultRate": "{{GetResetaurantDetails.data.average_rating}}",
     "originalTopRow": 5,
-    "activeColor": "#fde047",
+    "activeColor": "#006d77",
     "size": "LARGE",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,

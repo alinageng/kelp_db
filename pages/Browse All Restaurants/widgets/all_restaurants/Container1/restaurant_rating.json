@@ -35,7 +35,7 @@
     "isLoading": false,
     "mobileTopRow": 9,
     "defaultRate": "{{currentItem.average_rating}}",
-    "activeColor": "#fde047",
+    "activeColor": "#006d77",
     "size": "LARGE",
     "mobileLeftColumn": 43,
     "maxDynamicHeight": 9000,

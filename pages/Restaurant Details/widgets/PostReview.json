@@ -367,7 +367,7 @@
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-        "buttonColor": "#22c55e",
+        "buttonColor": "#e29578",
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [],
@@ -384,7 +384,7 @@
     "sourceData": "{\n    \"description\": \"\",\n    \"menu_item_reviews\": [],\n    \"rating\": 5\n}",
     "resetButtonLabel": "Reset",
     "key": "49qh3d7mi5",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#ffddd2",
     "isDeprecated": false,
     "rightColumn": 50,
     "widgetId": "t7op0yte61",
