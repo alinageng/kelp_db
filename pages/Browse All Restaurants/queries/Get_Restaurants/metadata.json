@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -46,7 +46,7 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-12-05T21:59:52Z"
+    "createdAt": "2023-12-05T22:06:55Z"
   },
   "id": "Browse All Restaurants_Get_Restaurants",
   "deleted": false,
